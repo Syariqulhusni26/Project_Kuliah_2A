@@ -1,0 +1,43 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-form {
+    width: 1000px;
+    height: 580px;
+    padding: 50px;
+    padding-bottom:100px ;
+    padding-top: 30px;
+    border-radius: 10px !important;
+    box-shadow: 3px 20px 20px  grey ;
+    
+}
+img {
+    width: 150px;
+    align-items: center;
+}
+
+.photo-right {
+    width: 110%;
+    padding-top: 10px;
+}
+/* script agar ketika layar di hp gambarnya menghilang */
+@media (max-width: 576px) {
+    .display-right {
+        display: none;
+        
+        }
+    }

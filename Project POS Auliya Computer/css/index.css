@@ -1,0 +1,9 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(235, 235, 235) !important;
+}
+
